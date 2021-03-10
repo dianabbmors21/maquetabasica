@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<!-- Efectos de transición: fade,flip,flow,pop,slide,slidefade,slideup,slidedown,turn,none. -->
+<body>
+<div data-role="page" id="page1">
+  <div data-role="header">
+    <h1>DATOS GENERALES:</h1>
+  </div>
+
+   <div data-role="main" class="ui-content">
+   	<img src="dm.jpeg" width="60" height="50">
+    <p>DIANA MARCELA ORTEGA IGLESIAS <br> 21/05/2000 <br> 20 años </p>
+    <a href="#page2"><input type="button" value="Ir a Estudio" data-transition="slidedown" > </a>
+    
+  </div>
+
+  <div data-role="footer">
+    <h1>Creado por DMOI </h1>
+  </div>
+</div> 
+
+<div data-role="page" id="page2">
+  <div data-role="header">
+    <h1>Estudios 
+  </div>
+
+   <div data-role="main" class="ui-content">
+    <p><br> PRIMARIA: José Ma. Martinez Rodriguez <br> SECUNDARIA: Técnica 47 <br> PREPA: CBTis 46 <br> AREA : Programación</h1></p>
+    <a href="#page3"><input type="button" value="Ir a Habilidade extras" data-transition="fade"> </a> 
+    <br> <br>
+    <a href="#page1" ><input type="button" value="Regresar a la página principal"  data-transition="turn"> </a>
+  </div>
+  <div data-role="footer">
+    <h1>Creado por DMOI </h1>
+  </div>
+</div> 
+
+
+  <div data-role="page" id="page3">
+  <div data-role="header">
+    <h1>Habilidades extras </h1>
+  </div>
+
+   <div data-role="main" class="ui-content">
+    <p>Ofimatica </p> <br> Bordado Tenek <br>
+   </p>
+
+    <a href="#page4"><input type="button" value= "Ir a Pasatiempos" data-transition="flip"></a>
+    <br><br>
+    <a href="#page2"><input type="button" value="Regresa a Estudios" data-transition="slidedown"></a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Creado por DMOI</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="page4">
+  <div data-role="header">
+    <h1>Pasatiempos </h1>
+  </div>
+
+   <div data-role="main" class="ui-content">
+    <p>
+    	<br> Jugar billar <br> Escuchar música <br> Leer 
+    </p>
+    <a href="#page5"><input type="button" value="Ir a Experiencia Laboral" data-transition="pop"></a>
+    <br><br>
+    <a href="#page3"><input type="button" value="Regresar Habilidades extras" data-transition="slide"></a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Creado por DMOI </h1>
+  </div>
+</div> 
+
+
+<div data-role="page" id="page5">
+  <div data-role="header">
+    <h1>Experiencia Laboral  
+  </div>
+
+   <div data-role="main" class="ui-content">
+    <p>  Servicio Social en TEC VALLES <br> Empleado general <br> Cajero </p>
+    
+    <a href="#page1"><input type="button" value="Regresa a Pagina Principal" data-transition="slideup"></a>
+  </div>
+
+  
+  
+  <div data-role="footer">
+    <h1>Creado por DMOI</h1>
+  </div>
+</div> 
+</body>
+</html>
